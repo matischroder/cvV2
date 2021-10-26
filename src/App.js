@@ -8,7 +8,7 @@ import React from 'react';
 import ReactTextTransition from "react-text-transition";
 import image from "./assets/images/image.png"
 import { GoLocation } from "react-icons/go";
-import { AiOutlineMail, AiOutlineLinkedin, AiFillGithub} from "react-icons/ai";
+import { AiOutlineMail, AiOutlineLinkedin, AiFillGithub, AiOutlineWhatsApp} from "react-icons/ai";
 
 
 
@@ -26,7 +26,7 @@ function App() {
         
         <div className={white ? ("top top-white") : ("top top-dark")}>
           <div className="top-left">
-            <Typography variant="h3" id="currículum-vítae">{t('title')}</Typography>
+            <Typography variant="h3" id="curriculum-vitae">{t('title')}</Typography>
           </div>
           <div className="top-right">
            <LanguageSwitch />
@@ -40,18 +40,22 @@ function App() {
           <div className="centered contact-div">
             <img className="image" src={image} alt="First Person"></img>
             <div className="low-contact">
+              <Typography variant="h5">Full-Stack Developer</Typography>
             <br />
               <GoLocation color="#fafafa" size="1.5em" />
             <a>Córdoba, Argentina</a>
             <br />
             <br />
-            <a className="contact-link" href="mailto:matischroder99@gmail.com">
-            <AiOutlineMail href="mailto:matischroder99@gmail.com" size="1.5em"/>
-            </a>
-            <a className="contact-link" href="https://www.linkedin.com/in/matischroder/">
+              <a className="contact-link" href="mailto:matischroder99@gmail.com" target="_blank" rel="noreferrer">
+            <AiOutlineMail size="1.5em"/>
+              </a>
+              <a className="contact-link" href="wa.me/5493515212248" target="_blank" rel="noreferrer">
+                <AiOutlineWhatsApp size="1.5em"/>
+                </a>
+              <a className="contact-link" href="https://www.linkedin.com/in/matischroder/" target="_blank" rel="noreferrer">
             <AiOutlineLinkedin size="1.5em"/>
             </a>
-            <a href="https://github.com/matischroder">
+              <a href="https://github.com/matischroder" target="_blank" rel="noreferrer">
               <AiFillGithub size="1.5em" color="#fafafa"/>
             </a>
           </div>
@@ -105,7 +109,7 @@ function App() {
             </Typography>
             <ul>
               <li>
-                <a href="https://malucar.herokuapp.com/">
+                  <a href="https://malucar.herokuapp.com/" target="_blank" rel="noreferrer">
                 <ReactTextTransition
                   text={t('projects.first.title')}
                     direction="up"
@@ -133,7 +137,7 @@ function App() {
                   inline
                 />
               </li>
-              <li><a href="https://voluntariadoing.ucc.edu.ar/"><ReactTextTransition
+                <li><a href="https://voluntariadoing.ucc.edu.ar/" target="_blank" rel="noreferrer"><ReactTextTransition
                 text={t('projects.second.title')}
                 direction="up"
                 delay="1000"
@@ -176,7 +180,7 @@ function App() {
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
                 inline
-              /> <a href="https://gimplanes.netlify.app/">
+                /> <a href="https://gimplanes.netlify.app/" target="_blank" rel="noreferrer">
                   <ReactTextTransition
                   text={t('ownprojects.app')}
                     direction="up"
@@ -197,7 +201,7 @@ function App() {
                   />
                   <a> </a>
 
-                  <a href="https://campanadonacionlalonja.netlify.app/"><ReactTextTransition
+                  <a href="https://campanadonacionlalonja.netlify.app/" target="_blank" rel="noreferrer"><ReactTextTransition
                   text={t('ownprojects.app')}
                   direction="up"
                   delay="1950"
@@ -215,7 +219,7 @@ function App() {
                     inline
                   />
                   <a> </a>
-                  <a href="https://escribaniaschroder.netlify.app/"><ReactTextTransition
+                  <a href="https://escribaniaschroder.netlify.app/" target="_blank" rel="noreferrer"><ReactTextTransition
                   text={t('ownprojects.web')}
                   direction="up"
                   delay="2050"
@@ -441,79 +445,7 @@ function App() {
             </ul>
             </div>
 
-            <div className="contact vertical-align">
-            <Typography variant="h4" id="información-importante">
-              <ReactTextTransition
-                text={t('contact.title')}
-                direction="up"
-                delay="4600"
-                springConfig={{ mass: 1, tension: 7, friction: 5 }}
-                noOverflow
-              />
-            </Typography>
-            <ul>
-              <li><strong> <ReactTextTransition
-                text={t('contact.direction.title')}
-                direction="up"
-                delay="4700"
-                springConfig={{ mass: 1, tension: 7, friction: 5 }}
-                noOverflow
-                inline
-              /></strong> <ReactTextTransition
-                  text={t('contact.direction.description')}
-                  direction="up"
-                  delay="4700"
-                  springConfig={{ mass: 1, tension: 7, friction: 5 }}
-                  noOverflow
-                  inline
-                /></li>
-              <li><strong> <ReactTextTransition
-                text={"Email:"}
-                direction="up"
-                delay="4800"
-                springConfig={{ mass: 1, tension: 7, friction: 5 }}
-                noOverflow
-                inline
-              /></strong> <ReactTextTransition
-                  text={"matischroder99@gmail.com"}
-                  direction="up"
-                  delay="4800"
-                  springConfig={{ mass: 1, tension: 7, friction: 5 }}
-                  noOverflow
-                  inline
-                /></li>
-              <li><strong><ReactTextTransition
-                text={"Linkedin:"}
-                direction="up"
-                delay="4900"
-                springConfig={{ mass: 1, tension: 7, friction: 5 }}
-                noOverflow
-                inline
-              /></strong> <a href="https://www.linkedin.com/in/matischroder/"><ReactTextTransition
-                  text={"Matías Schröder"}
-                  direction="up"
-                  delay="4900"
-                  springConfig={{ mass: 1, tension: 7, friction: 5 }}
-                  noOverflow
-                  inline
-              /></a></li>
-              <li><strong><ReactTextTransition
-                text={"Github:"}
-                direction="up"
-                delay="5000"
-                springConfig={{ mass: 1, tension: 7, friction: 5 }}
-                noOverflow
-                inline
-              /></strong> <a href="https://github.com/matischroder"><ReactTextTransition
-                text={"matischroder"}
-                  direction="up"
-                  delay="5000"
-                  springConfig={{ mass: 1, tension: 7, friction: 5 }}
-                  noOverflow
-                inline
-              /></a></li>
-            </ul>
-            </div>
+          
 
           </div>
         </div>

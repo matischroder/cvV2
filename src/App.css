@@ -173,13 +173,13 @@ a:visited {
 }
 
 .education {
-  height: 20%;
+  height: 30%;
   width: 100%;
   position: relative;
 }
 
 .extra {
-  height: 20%;
+  height: 30%;
   width: 100%;
   position: relative;
 }
@@ -190,8 +190,10 @@ a:visited {
   position: relative;
 }
 
-.contact {
-  height: 40%;
-  width: 100%;
-  position: relative;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Staatliches&display=swap');
+
+#curriculum-vitae {
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Staatliches', cursive;
 }
