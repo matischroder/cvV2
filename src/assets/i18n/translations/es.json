@@ -1,0 +1,51 @@
+{    
+    "title": "Matías Schröder",
+    "intro":"Estoy buscando trabajo part-time en el sector blockchain.",
+    "experience":{
+        "title":"Experiencia",
+        "experience1":"Armado y configuración de Rigs de Minería (Abr 2021 - Act) Qubistry"
+    },
+    "projects":{
+        "title": "Proyectos Facultativos",
+        "first.title": "Malucar",
+        "first.technologies": "HTML CSS JavaScript",
+        "second.title": "Página Web del Voluntariado Inteniería",
+        "second.technologies": "ReactJs",
+        "technologies":"| Tecnologías utilizadas:"
+    },
+    "ownprojects":{
+        "title":"Proyectos Propios",
+        "technologie.one":"React:",
+        "app":"App",
+        "web":"Página Web"
+    },
+    "skills":{
+        "title": "Habilidades"
+    },
+    "education":{
+        "title":"Educación",
+        "first":"Ingeniría de Sistemas en Universidad Católica de Córdoba (2017 - act)",
+        "second":"Colegio Gabriel Taborin (2005 - 2016)",
+        "third":"British School (2008 - 2016)"
+    },
+    "languages":{
+        "title": "Idioma",
+        "spanish":"Español: Nativo",
+        "english":"Inglés: Avanzado",
+        "portuguese":"Portugués: Básico"
+    },
+    "extra":{
+        "title":"Certificados",
+        "first":"Council of Europe Level B1",
+        "second":"Grade 7, Graded Examination in Spoken English Level B2.1",
+        "third": "Grade 5, Graded Examination in Spoken English Level B1.2",
+        "cambridge":"Cambridge English",
+        "trinity":"Trinity College London"
+
+    },
+    "contact":{
+        "title":"Contacto",
+        "direction.title":"Dirección:",
+        "direction.description":"Córdoba, Argentina"
+    }
+}

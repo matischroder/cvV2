@@ -1,0 +1,52 @@
+{
+    "title": "Matías Schröder",
+    "intro": "looking for work mdf",
+    "experience": {
+        "title": "Experience",
+        "experince1": "rigs"
+    },
+    "projects": {
+        "title": "Educational Projects",
+        "first.title": "Malucar",
+        "first.technologies": "HTML CSS JavaScript",
+        "second.title": "Engineering Volunteering WebPage",
+        "second.technologies": "ReactJs",
+        "technologies": "| Used:"
+        },
+    "ownprojects": {
+        "title": "Own Projects",
+        "technologie.one": "React:",
+        "app": "App",
+        "web": "Web Page"
+        
+    },
+    "skills": {
+        "title":"Skills"
+    },
+    "education": {
+        "title": "Education",
+        "first": "Systems Engineer",
+        "second": "Colegio Gabriel Taborin (2005 - 2016)",
+        "third": "British School (2008 - 2016)"
+    },
+    "languages": {
+        "title": "Languages",
+        "spanish": "Spanish: Native",
+        "english": "English: Proficient",
+        "portuguese": "Portuguese: Beginner"
+    },
+    "extra": {
+        "title": "Extra",
+        "first": "Council of Europe Level B1",
+        "second": "Grade 7, Graded Examination in Spoken English Level B2.1",
+        "third": "Grade 5, Graded Examination in Spoken English Level B1.2",
+        "cambridge": "Cambridge English",
+        "trinity": "Trinity College London"
+    },
+    "contact": {
+        "title": "Contact",
+        "direction.title": "Address:",
+        "direction.description": "Córdoba, Argentina"
+    },
+    "pipe": " | "
+}
