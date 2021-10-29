@@ -1,17 +1,19 @@
 {
     "title": "Matías Schröder",
-    "intro": "looking for work mdf",
+    "intro": "I am a 22 years old full-stack developer. I look forward to a job as blockchain developer. I've been proggraming with Web3, testing and deploying in Hardhat, using Infura and Alchemy nodes. I can use Ganache and Truffle too. Also, I have the fundamental knowledge of how different blockchains work.",
     "experience": {
         "title": "Experience",
-        "experince1": "rigs"
+        "experince1": "Running RSK nodes and some Web3 application locally. (Abr 2021 - Nov 2021) Qubistry"
     },
     "projects": {
         "title": "Educational Projects",
         "first.title": "Malucar",
-        "first.technologies": "HTML CSS JavaScript",
+        "first.technologies": "HTML CSS NodeJS Javascript Bootstrap",
+        "first.description": "Web Applicatin to travel and share costs",
         "second.title": "Engineering Volunteering WebPage",
-        "second.technologies": "ReactJs",
-        "technologies": "| Used:"
+        "second.technologies": " ReactJs",
+        "second.description" : "",
+        "technologies": "> Used: "
         },
     "ownprojects": {
         "title": "Own Projects",

@@ -85,7 +85,8 @@ function App() {
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
               />
-            </Typography>
+              </Typography>
+              <br/>
             <ul>
               <li>
                 <ReactTextTransition
@@ -96,8 +97,9 @@ function App() {
                   noOverflow
                 />
                   </li>
-            </ul>
-
+              </ul>
+              <br />
+              <br />
             <Typography variant="h5" id="proyectos-facultativos">
               <ReactTextTransition
                 text={t('projects.title')}
@@ -118,8 +120,17 @@ function App() {
                     noOverflow
                     inline
                 />
-                </a>
-                <a> </a>
+                  </a>
+                  <br />
+                  <ReactTextTransition
+                    text={t('projects.first.description')}
+                    direction="up"
+                    delay="900"
+                    springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                    noOverflow
+                    inline
+                  />
+                  <br/>
                 <ReactTextTransition
                   text={t('projects.technologies')}
                   direction="up"
@@ -127,7 +138,8 @@ function App() {
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                   inline
-                />
+                  />
+                  <a> </a>
                 <ReactTextTransition
                   text={t('projects.first.technologies')}
                   direction="up"
@@ -135,8 +147,9 @@ function App() {
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                   inline
-                />
-              </li>
+                  />
+                </li>
+                <br />
                 <li><a href="https://voluntariadoing.ucc.edu.ar/" target="_blank" rel="noreferrer"><ReactTextTransition
                 text={t('projects.second.title')}
                 direction="up"
@@ -146,7 +159,16 @@ function App() {
                 inline
               />
               </a>
-                <a> </a>
+                  <br />
+                  <ReactTextTransition
+                    text={t('projects.second.description')}
+                    direction="up"
+                    delay="900"
+                    springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                    noOverflow
+                    inline
+                  />
+                  <br/>
                 <ReactTextTransition
                   text={t('projects.technologies')}
                   direction="up"
@@ -154,7 +176,8 @@ function App() {
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                   inline
-                />
+                  />
+                  <a> </a>
                 <ReactTextTransition
                   text={t('projects.second.technologies')}
                   direction="up"
@@ -164,6 +187,9 @@ function App() {
                   inline
                 /></li>
             </ul>
+              <br />
+              <br />
+
 
             <Typography variant="h5" id="proyectos-propios"> <ReactTextTransition
               text={t('ownprojects.title')}
