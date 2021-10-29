@@ -1,5 +1,5 @@
 .top {
-  height: 20%;
+  height: 15%;
   width: 100%;
   position: fixed;
   text-align: center;
@@ -25,21 +25,21 @@
 }
 
 .split1 {
-  height: 80%;
+  height: 85%;
   width: 20%;
   position: fixed;
   z-index: 1;
-  top: 20%;
+  top: 15%;
   overflow-x: hidden;
   padding-top: 20px;
 }
 
 .split2 {
-  height: 80%;
+  height: 85%;
   width: 40%;
   position: fixed;
   z-index: 1;
-  top: 20%;
+  top: 15%;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -155,37 +155,37 @@ a:visited {
 }
 
 .intro {
-  height: 20%;
+  height: calc(20% - 20px);
   width: 90%;
   position: relative;
 }
 
 .experience {
-  height: 35%;
+  height: calc(80% - 20px);
   width: 90%;
   position: relative;
 }
 
 .skills {
-  height: 45%;
+  height: calc(40% - 20px);
   width: 100%;
   position: relative;
 }
 
 .education {
-  height: 30%;
+  height: calc(20% - 20px);
   width: 100%;
   position: relative;
 }
 
 .extra {
-  height: 30%;
+  height: calc(20% - 20px);
   width: 100%;
   position: relative;
 }
 
 .languages {
-  height: 20%;
+  height: calc(20% - 20px);
   width: 100%;
   position: relative;
 }
