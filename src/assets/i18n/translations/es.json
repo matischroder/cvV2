@@ -3,7 +3,7 @@
     "intro":"Soy un desarrollador full-stack de 22 años. Estoy buscando trabajo como desarrollador en blockchain part-time. He experimentado programar con Web3, testear y deployar en Hardhat, utilizando los nodos de Infura y Alchemy. También he utilizado Ganache y Truffle. Cuento con los conocimientos fundamentales del funcionamiento de las blockchains.",
     "experience":{
         "title":"Experiencia",
-        "experience1":"Se me han otorgado tareas de correr crear nodos RSK, experimentar con aplicaciones Web3 ya realizadas y ponerlas en funcionamiento. (Abr 2021 - Nov 2021) Qubistry"
+        "first.experience":"Se me han otorgado tareas de correr crear nodos RSK, experimentar con aplicaciones Web3 ya realizadas y ponerlas en funcionamiento. (Abr 2021 - Nov 2021) Qubistry"
     },
     "projects":{
         "title": "Proyectos Facultativos",
@@ -11,15 +11,19 @@
         "first.technologies": "HTML CSS NodeJS Javascript Bootstrap",
         "first.description": "Aplicacion web para poder viajar y compartir gastos",
         "second.title": "Página Web del Voluntariado Inteniería",
-        "second.technologies": "ReactJs",
+        "second.technologies": "ReactJs HTML CSS MaterialUI",
         "second.description": "Página Web para realizar donaciones de materiales de construcción, comida y ropa al voluntariado de ingeniería de la universidad",
         "technologies":"> Tecnologías utilizadas: "
     },
     "ownprojects":{
         "title":"Proyectos Propios",
-        "technologie.one":"React:",
-        "app":"App",
-        "web":"Página Web"
+        "technologie.one":"React",
+        "app":"App:",
+        "web":"Página Web:",
+        "first.description": "Aplicación básica para hacer planes para el gimnasio",
+        "second.description": "Página web básica para realizar donaciones de dinero a un barrio humilde",
+        "third.description": "Página web para ofrecer servicios notariales",
+        "technologies": "> Tecnologías utilizadas: "
     },
     "skills":{
         "title": "Habilidades"

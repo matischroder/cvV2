@@ -3,23 +3,27 @@
     "intro": "I am a 22 years old full-stack developer. I look forward to a job as blockchain developer. I've been proggraming with Web3, testing and deploying in Hardhat, using Infura and Alchemy nodes. I can use Ganache and Truffle too. Also, I have the fundamental knowledge of how different blockchains work.",
     "experience": {
         "title": "Experience",
-        "experince1": "Running RSK nodes and some Web3 application locally. (Abr 2021 - Nov 2021) Qubistry"
+        "first.experience": "Running RSK nodes and some Web3 application locally. (Abr 2021 - Nov 2021) Qubistry"
     },
     "projects": {
         "title": "Educational Projects",
         "first.title": "Malucar",
         "first.technologies": "HTML CSS NodeJS Javascript Bootstrap",
         "first.description": "Web Applicatin to travel and share costs",
-        "second.title": "Engineering Volunteering WebPage",
-        "second.technologies": " ReactJs",
-        "second.description" : "",
+        "second.title": "Engineering Volunteer WebPage",
+        "second.technologies": " ReactJs HTML CSS MaterialUI",
+        "second.description" : "Web page to make donations of construction equipmets, food and clothes to the engineering volunteers of the university",
         "technologies": "> Used: "
         },
     "ownprojects": {
         "title": "Own Projects",
-        "technologie.one": "React:",
-        "app": "App",
-        "web": "Web Page"
+        "technologie.one": "React HTML CSS Bootstrap",
+        "app": "App:",
+        "web": "Web Page:",
+        "first.description": "Basic web application to make gim plans",
+        "second.description": "Basic web page to make money donatios for a humble neighborhood",
+        "third.description": "Web page to offer notarial services",
+        "technologies": "> Used: "
         
     },
     "skills": {
@@ -27,7 +31,7 @@
     },
     "education": {
         "title": "Education",
-        "first": "Systems Engineer",
+        "first": "Systems Engineer (2016 - now)",
         "second": "Colegio Gabriel Taborin (2005 - 2016)",
         "third": "British School (2008 - 2016)"
     },
