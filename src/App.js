@@ -81,7 +81,7 @@ function App() {
               <ReactTextTransition
                 text={t('experience.title')}
                 direction="up"
-                delay="100"
+                delay="25"
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
               />
@@ -92,7 +92,7 @@ function App() {
                 <ReactTextTransition
                   text={t('experience.first.experience')}
                   direction="up"
-                  delay="200"
+                  delay="50"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 />
@@ -104,7 +104,7 @@ function App() {
               <ReactTextTransition
                 text={t('projects.title')}
                 direction="up"
-                delay="400"
+                delay="75"
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
               />
@@ -115,20 +115,20 @@ function App() {
                 <ReactTextTransition
                   text={t('projects.first.title')}
                     direction="up"
-                    delay="500"
+                    delay="100"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 />
                   </a>
                   <ReactTextTransition
                     text={t('projects.first.description')}
                     direction="up"
-                    delay="500"
+                    delay="125"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   />
                 <ReactTextTransition
                   text={t('projects.technologies')}
                   direction="up"
-                  delay="500"
+                  delay="150"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                   inline
@@ -137,7 +137,7 @@ function App() {
                 <ReactTextTransition
                   text={t('projects.first.technologies')}
                   direction="up"
-                  delay="500"
+                  delay="175"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                   inline
@@ -147,20 +147,20 @@ function App() {
                 <li><a href="https://voluntariadoing.ucc.edu.ar/" target="_blank" rel="noreferrer"><ReactTextTransition
                 text={t('projects.second.title')}
                 direction="up"
-                delay="600"
+                delay="200"
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
               />
               </a>
                   <ReactTextTransition
                     text={t('projects.second.description')}
                     direction="up"
-                    delay="600"
+                    delay="225"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 />
                 <ReactTextTransition
                   text={t('projects.technologies')}
                   direction="up"
-                  delay="600"
+                  delay="250"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                   inline
@@ -169,7 +169,7 @@ function App() {
                 <ReactTextTransition
                   text={t('projects.second.technologies')}
                   direction="up"
-                  delay="600"
+                  delay="275"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                   inline
@@ -182,7 +182,7 @@ function App() {
             <Typography variant="h5" id="proyectos-propios"> <ReactTextTransition
               text={t('ownprojects.title')}
               direction="up"
-              delay="800"
+              delay="300"
               springConfig={{ mass: 1, tension: 7, friction: 5 }}
               noOverflow
             /></Typography>
@@ -192,7 +192,7 @@ function App() {
                   <ReactTextTransition
                   text={t('ownprojects.app')}
                     direction="up"
-                    delay="900"
+                    delay="325"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                       noOverflow
                       inline
@@ -202,7 +202,7 @@ function App() {
                   <ReactTextTransition
                     text={t('ownprojects.first.description')}
                     direction="900"
-                    delay="1900"
+                    delay="350"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                     noOverflow
                     inline                    
@@ -211,7 +211,7 @@ function App() {
                   <ReactTextTransition
                     text={t('ownprojects.technologies')}
                     direction="up"
-                    delay="900"
+                    delay="375"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                     noOverflow
                     inline
@@ -220,7 +220,7 @@ function App() {
                   <ReactTextTransition
                     text={t('ownprojects.technologie.one')}
                     direction="up"
-                    delay="900"
+                    delay="400"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                     noOverflow
                     inline
@@ -230,7 +230,7 @@ function App() {
                   <a href="https://campanadonacionlalonja.netlify.app/" target="_blank" rel="noreferrer"><ReactTextTransition
                   text={t('ownprojects.app')}
                   direction="up"
-                  delay="1000"
+                  delay="425"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                   inline
@@ -239,7 +239,7 @@ function App() {
                   <ReactTextTransition
                     text={t('ownprojects.second.description')}
                     direction="up"
-                    delay="1000"
+                    delay="450"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                     noOverflow
                     inline
@@ -248,7 +248,7 @@ function App() {
                   <ReactTextTransition
                     text={t('ownprojects.technologies')}
                     direction="up"
-                    delay="1000"
+                    delay="475"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                     noOverflow
                     inline
@@ -257,7 +257,7 @@ function App() {
                   <ReactTextTransition
                     text={t('ownprojects.technologie.one')}
                     direction="up"
-                    delay="1000"
+                    delay="500"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                     noOverflow
                     inline
@@ -267,7 +267,7 @@ function App() {
                   <a href="https://escribaniaschroder.netlify.app/" target="_blank" rel="noreferrer"><ReactTextTransition
                   text={t('ownprojects.web')}
                   direction="up"
-                  delay="1100"
+                  delay="525"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                   inline
@@ -276,7 +276,7 @@ function App() {
                   <ReactTextTransition
                     text={t('ownprojects.third.description')}
                     direction="up"
-                    delay="1100"
+                    delay="550"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                     noOverflow
                     inline
@@ -285,7 +285,7 @@ function App() {
                   <ReactTextTransition
                     text={t('ownprojects.technologies')}
                     direction="up"
-                    delay="1000"
+                    delay="575"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                     noOverflow
                     inline
@@ -294,7 +294,7 @@ function App() {
                   <ReactTextTransition
                     text={t('ownprojects.technologie.one')}
                     direction="up"
-                    delay="1100"
+                    delay="600"
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                     noOverflow
                     inline
@@ -312,7 +312,7 @@ function App() {
               <Typography variant="h4" id="habilidades"><ReactTextTransition
                 text={t('skills.title')}
                 direction="up"
-                delay="25"
+                delay="625"
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
               /></Typography>
@@ -320,7 +320,7 @@ function App() {
                 <li><ReactTextTransition
                   text={"Solidity"}
                   direction="up"
-                  delay="50"
+                  delay="650"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 />
@@ -328,63 +328,63 @@ function App() {
                 <li><ReactTextTransition
                   text={"NodeJs"}
                   direction="up"
-                  delay="100"
+                  delay="675"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
                   text={"ReactJs"}
                   direction="up"
-                  delay="150"
+                  delay="700"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
                   text={"C++"}
                   direction="up"
-                  delay="200"
+                  delay="725"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
                   text={"Javascript"}
                   direction="up"
-                  delay="250"
+                  delay="750"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
                   text={"Git"}
                   direction="up"
-                  delay="300"
+                  delay="800"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
                   text={"Docker"}
                   direction="up"
-                  delay="350"
+                  delay="825"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
                   text={"Linux"}
                   direction="up"
-                  delay="400"
+                  delay="850"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
                   text={"Agile"}
                   direction="up"
-                  delay="450"
+                  delay="875"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
                   text={"Python"}
                   direction="up"
-                  delay="500"
+                  delay="900"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
@@ -395,7 +395,7 @@ function App() {
             <Typography variant="h4" id="educación"><ReactTextTransition
               text={t('education.title')}
               direction="up"
-              delay="2300"
+              delay="925"
               springConfig={{ mass: 1, tension: 7, friction: 5 }}
               noOverflow
             /></Typography>
@@ -403,21 +403,21 @@ function App() {
               <li><ReactTextTransition
                 text={t('education.first')}
                 direction="up"
-                delay="2500"
+                delay="950"
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
               /></li>
               <li><ReactTextTransition
                 text={t('education.second')}
                 direction="up"
-                delay="2700"
+                delay="975"
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
               /></li>
               <li><ReactTextTransition
                 text={t('education.third')}
                 direction="up"
-                delay="2900"
+                delay="1000"
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
               /></li>
@@ -428,7 +428,7 @@ function App() {
             <Typography variant="h5" id="certificaciones"><ReactTextTransition
               text={t('extra.title')}
               direction="up"
-              delay="3200"
+              delay="1025"
               springConfig={{ mass: 1, tension: 7, friction: 5 }}
               noOverflow
             /></Typography>
@@ -436,7 +436,7 @@ function App() {
               <li><strong><ReactTextTransition
                 text={t('extra.first')}
                 direction="up"
-                delay="3400"
+                delay="1050"
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
                 inline
@@ -451,14 +451,14 @@ function App() {
               <li><strong><ReactTextTransition
                 text={t('extra.second')}
                 direction="up"
-                delay="3800"
+                delay="1075"
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
                 inline
               /></strong> <em><ReactTextTransition
                 text={t('extra.trinity')}
                   direction="up"
-                  delay="4000"
+                  delay="1100"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 inline
@@ -466,14 +466,14 @@ function App() {
               <li><strong><ReactTextTransition
                 text={t('extra.third')}
                 direction="up"
-                delay="4200"
+                delay="1125"
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
                 inline
               /></strong> <em><ReactTextTransition
                 text={t('extra.trinity')}
                   direction="up"
-                  delay="4400"
+                  delay="1150"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 inline
@@ -485,7 +485,7 @@ function App() {
             <Typography variant="h5" id="idiomas"><ReactTextTransition
               text={t('languages.title')}
               direction="up"
-              delay="4400"
+              delay="1175"
               springConfig={{ mass: 1, tension: 7, friction: 5 }}
               noOverflow
               /></Typography>
@@ -494,7 +494,7 @@ function App() {
                 <ReactTextTransition
                   text={t('languages.spanish')}
                   direction="up"
-                  delay="4500"
+                  delay="1200"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 />
@@ -503,7 +503,7 @@ function App() {
                 <ReactTextTransition
                   text={t('languages.english')}
                   direction="up"
-                  delay="4500"
+                  delay="1225"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 />
@@ -512,7 +512,7 @@ function App() {
                 <ReactTextTransition
                   text={t('languages.portuguese')}
                   direction="up"
-                  delay="4500"
+                  delay="1250"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 />
