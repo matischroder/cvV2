@@ -173,19 +173,19 @@ a:visited {
 }
 
 .education {
-  height: calc(10% - 20px);
+  height: calc(15% - 20px);
   width: 100%;
   position: relative;
 }
 
 .extra {
-  height: calc(20% - 20px);
+  height: calc(15% - 20px);
   width: 100%;
   position: relative;
 }
 
 .languages {
-  height: calc(10% - 20px);
+  height: calc(15% - 20px);
   width: 100%;
   position: relative;
 }
