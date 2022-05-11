@@ -40,7 +40,7 @@ function App() {
           <div className="centered contact-div">
             {/* <img className="image" src={image} alt="First Person"></img> */}
             <div className="low-contact">
-              <Typography variant="h5">Full-Stack Developer</Typography>
+              <Typography variant="h4">Blockchain Developer</Typography>
             <br />
               <GoLocation color="#fafafa" size="1.5em" />
             <a>Córdoba, Argentina</a>
@@ -173,7 +173,37 @@ function App() {
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                   inline
-                /></li>
+                  /></li>
+                <br/>
+                <li><a><ReactTextTransition
+                  text={"Final Master Thesis"}
+                  direction="up"
+                  delay="200"
+                  springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                />
+                </a>
+                  <ReactTextTransition
+                    text={t('projects.third.description')}
+                    direction="up"
+                    delay="225"
+                    springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                  />
+                  <ReactTextTransition
+                    text={t('projects.technologies')}
+                    direction="up"
+                    delay="250"
+                    springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                    noOverflow
+                    inline
+                  />
+                  <a> </a>
+                  <ReactTextTransition
+                    text={"Javascript NodeJs Solidity Hardhat Ethers Git Aave Uniswap Sushiswap"}
+                    direction="up"
+                    delay="275"
+                    springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                    noOverflow
+                  /></li>
             </ul>
               <br />
               <br />
@@ -316,14 +346,14 @@ function App() {
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
               /></Typography>
-              <Typography variant="h5" id="proyectos-facultativos">
+              <Typography variant="h5">
                 <ReactTextTransition
                   text={"Bockchains"}
                   direction="up"
                   delay="625"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
-                />
+                /></Typography>
                 <ul>
                   <li><ReactTextTransition
                     text={"Ethereum"}
@@ -332,15 +362,24 @@ function App() {
                     springConfig={{ mass: 1, tension: 7, friction: 5 }}
                     noOverflow
                   />
-                  </li>
-                </ul>
+                </li>
+                <li><ReactTextTransition
+                  text={"Avalanche"}
+                  direction="up"
+                  delay="650"
+                  springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                  noOverflow
+                />
+                </li>
+              </ul>
+              <Typography variant="h5">
                 <ReactTextTransition
                   text={"DeFi"}
                   direction="up"
                   delay="625"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
-                />
+                /></Typography>
                 <ul>
                   <li><ReactTextTransition
                     text={"Aave"}
@@ -367,10 +406,9 @@ function App() {
                   />
                   </li>
                 </ul>
-              </Typography>
               <Typography variant="h5" id="proyectos-facultativos">
                 <ReactTextTransition
-                  text={"Languages"}
+                  text={"Stack"}
                   direction="up"
                   delay="625"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
@@ -379,7 +417,7 @@ function App() {
               </Typography>
               <ul>
                 <li><ReactTextTransition
-                  text={"Solidity"}
+                  text={"JavaScript"}
                   direction="up"
                   delay="650"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
@@ -401,49 +439,63 @@ function App() {
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
-                  text={"C++"}
+                  text={"Ethers.js"}
                   direction="up"
                   delay="725"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
-                  text={"Javascript"}
+                  text={"Hardhat"}
                   direction="up"
                   delay="750"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
-                  text={"Git"}
+                  text={"Solidity"}
                   direction="up"
                   delay="800"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
-                  text={"Docker"}
+                  text={"Shell"}
                   direction="up"
                   delay="825"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
-                  text={"Linux"}
+                  text={"Git"}
                   direction="up"
                   delay="850"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
-                  text={"Agile"}
+                  text={"Docker"}
                   direction="up"
                   delay="875"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
                   noOverflow
                 /></li>
                 <li><ReactTextTransition
-                  text={"Python"}
+                  text={"Kubernetes"}
+                  direction="up"
+                  delay="900"
+                  springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                  noOverflow
+                /></li>
+                <li><ReactTextTransition
+                  text={"Terraform"}
+                  direction="up"
+                  delay="900"
+                  springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                  noOverflow
+                /></li>
+                <li><ReactTextTransition
+                  text={"Agile"}
                   direction="up"
                   delay="900"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}

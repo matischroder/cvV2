@@ -155,25 +155,25 @@ a:visited {
 }
 
 .intro {
-  height: calc(20% - 20px);
+  height: calc(15% - 20px);
   width: 90%;
   position: relative;
 }
 
 .experience {
-  height: calc(80% - 20px);
+  height: calc(85% - 20px);
   width: 90%;
   position: relative;
 }
 
 .skills {
-  height: calc(40% - 20px);
+  height: calc(60% - 20px);
   width: 100%;
   position: relative;
 }
 
 .education {
-  height: calc(20% - 20px);
+  height: calc(10% - 20px);
   width: 100%;
   position: relative;
 }
@@ -185,7 +185,7 @@ a:visited {
 }
 
 .languages {
-  height: calc(20% - 20px);
+  height: calc(10% - 20px);
   width: 100%;
   position: relative;
 }
