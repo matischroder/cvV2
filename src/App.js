@@ -316,6 +316,67 @@ function App() {
                 springConfig={{ mass: 1, tension: 7, friction: 5 }}
                 noOverflow
               /></Typography>
+              <Typography variant="h5" id="proyectos-facultativos">
+                <ReactTextTransition
+                  text={"Bockchains"}
+                  direction="up"
+                  delay="625"
+                  springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                  noOverflow
+                />
+                <ul>
+                  <li><ReactTextTransition
+                    text={"Ethereum"}
+                    direction="up"
+                    delay="650"
+                    springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                    noOverflow
+                  />
+                  </li>
+                </ul>
+                <ReactTextTransition
+                  text={"DeFi"}
+                  direction="up"
+                  delay="625"
+                  springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                  noOverflow
+                />
+                <ul>
+                  <li><ReactTextTransition
+                    text={"Aave"}
+                    direction="up"
+                    delay="650"
+                    springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                    noOverflow
+                  />
+                  </li>
+                  <li><ReactTextTransition
+                    text={"Uniswap"}
+                    direction="up"
+                    delay="650"
+                    springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                    noOverflow
+                  />
+                  </li>
+                  <li><ReactTextTransition
+                    text={"Sushiswap"}
+                    direction="up"
+                    delay="650"
+                    springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                    noOverflow
+                  />
+                  </li>
+                </ul>
+              </Typography>
+              <Typography variant="h5" id="proyectos-facultativos">
+                <ReactTextTransition
+                  text={"Languages"}
+                  direction="up"
+                  delay="625"
+                  springConfig={{ mass: 1, tension: 7, friction: 5 }}
+                  noOverflow
+                />
+              </Typography>
               <ul>
                 <li><ReactTextTransition
                   text={"Solidity"}
