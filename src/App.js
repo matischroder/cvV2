@@ -38,7 +38,7 @@ function App() {
         </div>
         <div className={white ? ("split1 left contact-white") : ("split1 left contact-dark")}>
           <div className="centered contact-div">
-            <img className="image" src={image} alt="First Person"></img>
+            {/* <img className="image" src={image} alt="First Person"></img> */}
             <div className="low-contact">
               <Typography variant="h5">Full-Stack Developer</Typography>
             <br />
