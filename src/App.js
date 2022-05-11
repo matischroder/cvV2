@@ -348,7 +348,7 @@ function App() {
               /></Typography>
               <Typography variant="h5">
                 <ReactTextTransition
-                  text={"Bockchains"}
+                  text={"Blockchains"}
                   direction="up"
                   delay="625"
                   springConfig={{ mass: 1, tension: 7, friction: 5 }}
