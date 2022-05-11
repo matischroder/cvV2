@@ -3,7 +3,7 @@
     "intro": "I am a self-taught developer who strives to provide simple solutions to achieve big goals.",
     "experience": {
         "title": "Experience",
-        "first.experience": "Running RSK nodes and some Web3 applications locally. (Apr 2021 - Nov 2021) Qubistry"
+        "first.experience": "Create descentralize Chainlink Nodes Operators using VPS, wireguard VPN, Kubernetes and Ansible. (Apr 2021 - Now) Qubistry"
     },
     "projects": {
         "title": "Educational Projects",

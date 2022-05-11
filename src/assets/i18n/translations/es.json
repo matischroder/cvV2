@@ -3,7 +3,7 @@
     "intro":"Soy un desarrollador autodidacta que se esfuerza por brindar soluciones simples para lograr grandes objetivos.",
     "experience":{
         "title":"Experiencia",
-        "first.experience":"Se me han otorgado tareas de correr crear nodos RSK, experimentar con aplicaciones Web3 ya realizadas y ponerlas en funcionamiento. (Abr 2021 - Nov 2021) Qubistry"
+        "first.experience": "Creación de nodos operadores descentralizados de Chainlink utilizando Servidores Privados Virtuales, VPN wireguard, Kubernetes y Ansible. (Apr 2021 - Now) Qubistry"
     },
     "projects":{
         "title": "Proyectos Facultativos",
